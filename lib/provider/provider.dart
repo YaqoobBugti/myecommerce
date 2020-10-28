@@ -110,7 +110,7 @@ class MyProvider with ChangeNotifier {
     cartProductlist.clear();
     notifyListeners();
   }
-  ////////////////////////  Search Bar    //////////////////////////
+  ////////////////////////  Search Barr    //////////////////////////
 
   List<Product> search(String query) {
     List<Product> searchList = _seeAllProduct.where((element) {
